@@ -1,0 +1,3 @@
+jupyter-book<0.14
+matplotlib
+numpy

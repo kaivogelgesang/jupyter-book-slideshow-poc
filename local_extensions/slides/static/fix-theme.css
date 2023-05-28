@@ -1,0 +1,14 @@
+.reveal .headerlink,
+.reveal .copybtn {
+    display: none;
+}
+
+.reveal .highlight > pre {
+    width: 100%;
+}
+
+.reveal .past[hidden],
+.reveal .present[hidden],
+.reveal .future[hidden] {
+    display: block !important;
+}
