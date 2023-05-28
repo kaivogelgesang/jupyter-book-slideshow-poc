@@ -40,3 +40,12 @@ The code to make this work is in `local_extensions/slides`. It is loaded as a lo
 4. When the slideshow button is pressed, we search for the `<script>` tags, take all the dom elements between them, and arrange them in the structure that `reveal.js` expects
    
    (see `static/present.js`)
+
+## References
+This is basically copy-pasted from
+- [MyST-NB](https://github.com/executablebooks/MyST-NB/blob/v0.13.2/myst_nb/parser.py)
+- [RISE](https://github.com/damianavila/RISE/blob/5.7.1/classic/rise/static/main.js#L219)
+
+With further inspiration from
+- [sphinxext-presentations](https://github.com/wpilibsuite/sphinxext-presentations)
+- [sphinx-thebe](https://github.com/executablebooks/sphinx-thebe/blob/v0.2.1/sphinx_thebe/__init__.py#L219)
